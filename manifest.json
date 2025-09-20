@@ -1,10 +1,9 @@
 {
-  "id": "oraculum-exactus-plugin",
-  "name": "Oraculum Exactus Plugin",
+  "id": "oraculum-exactus",
+  "name": "Oraculum Exactus",
   "version": "0.5.4",
   "minAppVersion": "0.15.0",
-  "description": "Oraculum Exactus is an Obsidian plugin that provides a suite of tools for generating random outcomes, making decisions, and exploring possibilities within your notes. Whether you're a writer seeking inspiration, a gamer looking for random events, or someone who enjoys the thrill of chance, Oraculum Exactus has you covered.",
-  "author": "@dc0d",
-  "authorUrl": "https://dc0d.com",
+  "description": "Oracles & dice roller for TTRPG journaling",
+  "author": "Kaveh Shahbazian",
   "isDesktopOnly": true
 }
