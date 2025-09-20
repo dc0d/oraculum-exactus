@@ -1,0 +1,44 @@
+name: Release Oraculum Exactus
+
+on:
+  push:
+    tags:
+      - '*'
+  workflow_dispatch:
+
+jobs:
+  release:
+    name: Release Oraculum Exactus Plugin
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Setup Node.JS
+        uses: actions/setup-node@v5
+        with:
+          node-version: '22.19'
+
+      - name: Run tests
+        run: |
+          npm install
+          npm run test
+
+      - name: Build plugin
+        run: |
+          npm install
+          npm run build
+
+      - name: Create release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          tag="${GITHUB_REF#refs/tags/}"
+          echo "releasing tag: $tag"
+
+          gh release create "$tag" \
+            --title="$tag" \
+            --draft \
+            main.js manifest.json styles.css

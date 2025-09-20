@@ -1,0 +1,4056 @@
+{
+  "title": "Immersion Oracles",
+  "contents": {
+    "feelings": {
+      "name": "Feelings",
+      "dice": 1000,
+      "rows": [
+        {
+          "min": 1,
+          "max": 8,
+          "text": "Absorbed"
+        },
+        {
+          "min": 9,
+          "max": 17,
+          "text": "Admiration"
+        },
+        {
+          "min": 18,
+          "max": 26,
+          "text": "Affected"
+        },
+        {
+          "min": 27,
+          "max": 35,
+          "text": "Affectionate"
+        },
+        {
+          "min": 36,
+          "max": 44,
+          "text": "Afraid"
+        },
+        {
+          "min": 45,
+          "max": 53,
+          "text": "Alarmed"
+        },
+        {
+          "min": 54,
+          "max": 62,
+          "text": "Alone"
+        },
+        {
+          "min": 63,
+          "max": 71,
+          "text": "Amazed"
+        },
+        {
+          "min": 72,
+          "max": 80,
+          "text": "Angry"
+        },
+        {
+          "min": 81,
+          "max": 88,
+          "text": "Annoyed"
+        },
+        {
+          "min": 89,
+          "max": 96,
+          "text": "Anxious"
+        },
+        {
+          "min": 97,
+          "max": 104,
+          "text": "Ashamed"
+        },
+        {
+          "min": 105,
+          "max": 112,
+          "text": "At Ease"
+        },
+        {
+          "min": 113,
+          "max": 120,
+          "text": "Attracted"
+        },
+        {
+          "min": 121,
+          "max": 128,
+          "text": "Bored"
+        },
+        {
+          "min": 129,
+          "max": 136,
+          "text": "Calm"
+        },
+        {
+          "min": 137,
+          "max": 144,
+          "text": "Cheerful"
+        },
+        {
+          "min": 145,
+          "max": 152,
+          "text": "Clever"
+        },
+        {
+          "min": 153,
+          "max": 160,
+          "text": "Comfortable"
+        },
+        {
+          "min": 161,
+          "max": 168,
+          "text": "Concerned"
+        },
+        {
+          "min": 169,
+          "max": 176,
+          "text": "Confident"
+        },
+        {
+          "min": 177,
+          "max": 184,
+          "text": "Considerate"
+        },
+        {
+          "min": 185,
+          "max": 192,
+          "text": "Content"
+        },
+        {
+          "min": 193,
+          "max": 200,
+          "text": "Courageous"
+        },
+        {
+          "min": 201,
+          "max": 208,
+          "text": "Delighted"
+        },
+        {
+          "min": 209,
+          "max": 216,
+          "text": "Depressed"
+        },
+        {
+          "min": 217,
+          "max": 224,
+          "text": "Devoted"
+        },
+        {
+          "min": 225,
+          "max": 232,
+          "text": "Diminished"
+        },
+        {
+          "min": 233,
+          "max": 240,
+          "text": "Disappointed"
+        },
+        {
+          "min": 241,
+          "max": 248,
+          "text": "Discouraged"
+        },
+        {
+          "min": 249,
+          "max": 256,
+          "text": "Dissatisfied"
+        },
+        {
+          "min": 257,
+          "max": 264,
+          "text": "Doubtful"
+        },
+        {
+          "min": 265,
+          "max": 272,
+          "text": "Drained"
+        },
+        {
+          "min": 273,
+          "max": 280,
+          "text": "Dreading"
+        },
+        {
+          "min": 281,
+          "max": 288,
+          "text": "Dull"
+        },
+        {
+          "min": 289,
+          "max": 296,
+          "text": "Easy"
+        },
+        {
+          "min": 297,
+          "max": 304,
+          "text": "Elated"
+        },
+        {
+          "min": 305,
+          "max": 312,
+          "text": "Embarrassed"
+        },
+        {
+          "min": 313,
+          "max": 320,
+          "text": "Empty"
+        },
+        {
+          "min": 321,
+          "max": 328,
+          "text": "Encouraged"
+        },
+        {
+          "min": 329,
+          "max": 336,
+          "text": "Energetic"
+        },
+        {
+          "min": 337,
+          "max": 344,
+          "text": "Engrossed"
+        },
+        {
+          "min": 345,
+          "max": 352,
+          "text": "Enraged"
+        },
+        {
+          "min": 353,
+          "max": 360,
+          "text": "Exhausted"
+        },
+        {
+          "min": 361,
+          "max": 368,
+          "text": "Fascinated"
+        },
+        {
+          "min": 369,
+          "max": 376,
+          "text": "Fatigued"
+        },
+        {
+          "min": 377,
+          "max": 384,
+          "text": "Fear"
+        },
+        {
+          "min": 385,
+          "max": 392,
+          "text": "Fearful"
+        },
+        {
+          "min": 393,
+          "max": 400,
+          "text": "Fortunate"
+        },
+        {
+          "min": 401,
+          "max": 408,
+          "text": "Free"
+        },
+        {
+          "min": 409,
+          "max": 416,
+          "text": "Frisky"
+        },
+        {
+          "min": 417,
+          "max": 424,
+          "text": "Gay"
+        },
+        {
+          "min": 425,
+          "max": 432,
+          "text": "Giddy"
+        },
+        {
+          "min": 433,
+          "max": 440,
+          "text": "Gleeful"
+        },
+        {
+          "min": 441,
+          "max": 448,
+          "text": "Great"
+        },
+        {
+          "min": 449,
+          "max": 456,
+          "text": "Guilty"
+        },
+        {
+          "min": 457,
+          "max": 464,
+          "text": "Happy"
+        },
+        {
+          "min": 465,
+          "max": 472,
+          "text": "Hateful"
+        },
+        {
+          "min": 473,
+          "max": 480,
+          "text": "Hesitant"
+        },
+        {
+          "min": 481,
+          "max": 488,
+          "text": "Hostile"
+        },
+        {
+          "min": 489,
+          "max": 496,
+          "text": "Hungry"
+        },
+        {
+          "min": 497,
+          "max": 504,
+          "text": "Impulsive"
+        },
+        {
+          "min": 505,
+          "max": 512,
+          "text": "Incapable"
+        },
+        {
+          "min": 513,
+          "max": 520,
+          "text": "Indecisive"
+        },
+        {
+          "min": 521,
+          "max": 528,
+          "text": "Inferior"
+        },
+        {
+          "min": 529,
+          "max": 536,
+          "text": "Inquisitive"
+        },
+        {
+          "min": 537,
+          "max": 544,
+          "text": "Insensitive"
+        },
+        {
+          "min": 545,
+          "max": 552,
+          "text": "Insulting"
+        },
+        {
+          "min": 553,
+          "max": 560,
+          "text": "Interested"
+        },
+        {
+          "min": 561,
+          "max": 568,
+          "text": "Intrigued"
+        },
+        {
+          "min": 569,
+          "max": 576,
+          "text": "Irritated"
+        },
+        {
+          "min": 577,
+          "max": 584,
+          "text": "Joyous"
+        },
+        {
+          "min": 585,
+          "max": 592,
+          "text": "Liberated"
+        },
+        {
+          "min": 593,
+          "max": 600,
+          "text": "Lousy"
+        },
+        {
+          "min": 601,
+          "max": 608,
+          "text": "Loving"
+        },
+        {
+          "min": 609,
+          "max": 616,
+          "text": "Lucky"
+        },
+        {
+          "min": 617,
+          "max": 624,
+          "text": "Motivated"
+        },
+        {
+          "min": 625,
+          "max": 632,
+          "text": "Nervous"
+        },
+        {
+          "min": 633,
+          "max": 640,
+          "text": "Neutral"
+        },
+        {
+          "min": 641,
+          "max": 648,
+          "text": "Nonchalant"
+        },
+        {
+          "min": 649,
+          "max": 656,
+          "text": "Nosy"
+        },
+        {
+          "min": 657,
+          "max": 664,
+          "text": "Offensive"
+        },
+        {
+          "min": 665,
+          "max": 672,
+          "text": "Optimistic"
+        },
+        {
+          "min": 673,
+          "max": 680,
+          "text": "Overjoyed"
+        },
+        {
+          "min": 681,
+          "max": 688,
+          "text": "Overwhelmed"
+        },
+        {
+          "min": 689,
+          "max": 696,
+          "text": "Panic"
+        },
+        {
+          "min": 697,
+          "max": 704,
+          "text": "Paralyzed"
+        },
+        {
+          "min": 705,
+          "max": 712,
+          "text": "Passionate"
+        },
+        {
+          "min": 713,
+          "max": 720,
+          "text": "Peaceful"
+        },
+        {
+          "min": 721,
+          "max": 728,
+          "text": "Perplexed"
+        },
+        {
+          "min": 729,
+          "max": 736,
+          "text": "Playful"
+        },
+        {
+          "min": 737,
+          "max": 744,
+          "text": "Pleased"
+        },
+        {
+          "min": 745,
+          "max": 752,
+          "text": "Powerless"
+        },
+        {
+          "min": 753,
+          "max": 760,
+          "text": "Preoccupied"
+        },
+        {
+          "min": 761,
+          "max": 768,
+          "text": "Provocative"
+        },
+        {
+          "min": 769,
+          "max": 776,
+          "text": "Refreshed"
+        },
+        {
+          "min": 777,
+          "max": 784,
+          "text": "Relaxed"
+        },
+        {
+          "min": 785,
+          "max": 792,
+          "text": "Reliable"
+        },
+        {
+          "min": 793,
+          "max": 800,
+          "text": "Reserved"
+        },
+        {
+          "min": 801,
+          "max": 808,
+          "text": "Sad"
+        },
+        {
+          "min": 809,
+          "max": 816,
+          "text": "Satisfied"
+        },
+        {
+          "min": 817,
+          "max": 824,
+          "text": "Scared"
+        },
+        {
+          "min": 825,
+          "max": 832,
+          "text": "Sensitive"
+        },
+        {
+          "min": 833,
+          "max": 840,
+          "text": "Shy"
+        },
+        {
+          "min": 841,
+          "max": 848,
+          "text": "Sore"
+        },
+        {
+          "min": 849,
+          "max": 856,
+          "text": "Surprised"
+        },
+        {
+          "min": 857,
+          "max": 864,
+          "text": "Suspicious"
+        },
+        {
+          "min": 865,
+          "max": 872,
+          "text": "Sympathetic"
+        },
+        {
+          "min": 873,
+          "max": 880,
+          "text": "Tender"
+        },
+        {
+          "min": 881,
+          "max": 888,
+          "text": "Terrified"
+        },
+        {
+          "min": 889,
+          "max": 896,
+          "text": "Thankful"
+        },
+        {
+          "min": 897,
+          "max": 904,
+          "text": "Thirsty"
+        },
+        {
+          "min": 905,
+          "max": 912,
+          "text": "Tired"
+        },
+        {
+          "min": 913,
+          "max": 920,
+          "text": "Touched"
+        },
+        {
+          "min": 921,
+          "max": 928,
+          "text": "Uncertain"
+        },
+        {
+          "min": 929,
+          "max": 936,
+          "text": "Understanding"
+        },
+        {
+          "min": 937,
+          "max": 944,
+          "text": "Unpleasant"
+        },
+        {
+          "min": 945,
+          "max": 952,
+          "text": "Upset"
+        },
+        {
+          "min": 953,
+          "max": 960,
+          "text": "Useless"
+        },
+        {
+          "min": 961,
+          "max": 968,
+          "text": "Vindicated"
+        },
+        {
+          "min": 969,
+          "max": 976,
+          "text": "Vulnerable"
+        },
+        {
+          "min": 977,
+          "max": 984,
+          "text": "Warm"
+        },
+        {
+          "min": 985,
+          "max": 992,
+          "text": "Weary"
+        },
+        {
+          "min": 993,
+          "max": 1000,
+          "text": "Withdrawn"
+        }
+      ]
+    },
+    "sights": {
+      "name": "Sights",
+      "dice": 1000,
+      "rows": [
+        {
+          "min": 1,
+          "max": 5,
+          "text": "Aged"
+        },
+        {
+          "min": 6,
+          "max": 11,
+          "text": "Angular"
+        },
+        {
+          "min": 12,
+          "max": 17,
+          "text": "Azure"
+        },
+        {
+          "min": 18,
+          "max": 23,
+          "text": "Beautiful"
+        },
+        {
+          "min": 24,
+          "max": 29,
+          "text": "Billowy"
+        },
+        {
+          "min": 30,
+          "max": 35,
+          "text": "Black"
+        },
+        {
+          "min": 36,
+          "max": 41,
+          "text": "Bleary"
+        },
+        {
+          "min": 42,
+          "max": 47,
+          "text": "Blinding"
+        },
+        {
+          "min": 48,
+          "max": 53,
+          "text": "Bloated"
+        },
+        {
+          "min": 54,
+          "max": 59,
+          "text": "Blonde"
+        },
+        {
+          "min": 60,
+          "max": 65,
+          "text": "Blue"
+        },
+        {
+          "min": 66,
+          "max": 71,
+          "text": "Blurred"
+        },
+        {
+          "min": 72,
+          "max": 77,
+          "text": "Blushing"
+        },
+        {
+          "min": 78,
+          "max": 83,
+          "text": "Branching"
+        },
+        {
+          "min": 84,
+          "max": 89,
+          "text": "Bright"
+        },
+        {
+          "min": 90,
+          "max": 95,
+          "text": "Brilliant"
+        },
+        {
+          "min": 96,
+          "max": 100,
+          "text": "Broad"
+        },
+        {
+          "min": 101,
+          "max": 105,
+          "text": "Broken"
+        },
+        {
+          "min": 106,
+          "max": 110,
+          "text": "Brown"
+        },
+        {
+          "min": 111,
+          "max": 115,
+          "text": "Brunette"
+        },
+        {
+          "min": 116,
+          "max": 120,
+          "text": "Bulbous"
+        },
+        {
+          "min": 121,
+          "max": 125,
+          "text": "Bulky"
+        },
+        {
+          "min": 126,
+          "max": 130,
+          "text": "Camouflaged"
+        },
+        {
+          "min": 131,
+          "max": 135,
+          "text": "Chubby"
+        },
+        {
+          "min": 136,
+          "max": 140,
+          "text": "Circular"
+        },
+        {
+          "min": 141,
+          "max": 145,
+          "text": "Clear"
+        },
+        {
+          "min": 146,
+          "max": 150,
+          "text": "Coiled"
+        },
+        {
+          "min": 151,
+          "max": 155,
+          "text": "Colourful"
+        },
+        {
+          "min": 156,
+          "max": 160,
+          "text": "Colourless"
+        },
+        {
+          "min": 161,
+          "max": 165,
+          "text": "Colossal"
+        },
+        {
+          "min": 166,
+          "max": 170,
+          "text": "Contoured"
+        },
+        {
+          "min": 171,
+          "max": 175,
+          "text": "Cosmic"
+        },
+        {
+          "min": 176,
+          "max": 180,
+          "text": "Craggy"
+        },
+        {
+          "min": 181,
+          "max": 185,
+          "text": "Crimson"
+        },
+        {
+          "min": 186,
+          "max": 190,
+          "text": "Crinkled"
+        },
+        {
+          "min": 191,
+          "max": 195,
+          "text": "Crooked"
+        },
+        {
+          "min": 196,
+          "max": 200,
+          "text": "Crowded"
+        },
+        {
+          "min": 201,
+          "max": 205,
+          "text": "Crystalline"
+        },
+        {
+          "min": 206,
+          "max": 210,
+          "text": "Curved"
+        },
+        {
+          "min": 211,
+          "max": 215,
+          "text": "Dark"
+        },
+        {
+          "min": 216,
+          "max": 220,
+          "text": "Dazzling"
+        },
+        {
+          "min": 221,
+          "max": 225,
+          "text": "Deep"
+        },
+        {
+          "min": 226,
+          "max": 230,
+          "text": "Dim"
+        },
+        {
+          "min": 231,
+          "max": 235,
+          "text": "Dingy"
+        },
+        {
+          "min": 236,
+          "max": 240,
+          "text": "Dishevelled"
+        },
+        {
+          "min": 241,
+          "max": 245,
+          "text": "Distinct"
+        },
+        {
+          "min": 246,
+          "max": 250,
+          "text": "Drab"
+        },
+        {
+          "min": 251,
+          "max": 255,
+          "text": "Dreary"
+        },
+        {
+          "min": 256,
+          "max": 260,
+          "text": "Dull"
+        },
+        {
+          "min": 261,
+          "max": 265,
+          "text": "Dusty"
+        },
+        {
+          "min": 266,
+          "max": 270,
+          "text": "Elegant"
+        },
+        {
+          "min": 271,
+          "max": 275,
+          "text": "Emerald"
+        },
+        {
+          "min": 276,
+          "max": 280,
+          "text": "Enchanting"
+        },
+        {
+          "min": 281,
+          "max": 285,
+          "text": "Engaging"
+        },
+        {
+          "min": 286,
+          "max": 290,
+          "text": "Enormous"
+        },
+        {
+          "min": 291,
+          "max": 295,
+          "text": "Faded"
+        },
+        {
+          "min": 296,
+          "max": 300,
+          "text": "Fancy"
+        },
+        {
+          "min": 301,
+          "max": 305,
+          "text": "Fat"
+        },
+        {
+          "min": 306,
+          "max": 310,
+          "text": "Filthy"
+        },
+        {
+          "min": 311,
+          "max": 315,
+          "text": "Flashy"
+        },
+        {
+          "min": 316,
+          "max": 320,
+          "text": "Flat"
+        },
+        {
+          "min": 321,
+          "max": 325,
+          "text": "Flickering"
+        },
+        {
+          "min": 326,
+          "max": 330,
+          "text": "Foggy"
+        },
+        {
+          "min": 331,
+          "max": 335,
+          "text": "Forked"
+        },
+        {
+          "min": 336,
+          "max": 340,
+          "text": "Freckled"
+        },
+        {
+          "min": 341,
+          "max": 345,
+          "text": "Fuzzy"
+        },
+        {
+          "min": 346,
+          "max": 350,
+          "text": "Gargantuan"
+        },
+        {
+          "min": 351,
+          "max": 355,
+          "text": "Gaudy"
+        },
+        {
+          "min": 356,
+          "max": 360,
+          "text": "Gigantic"
+        },
+        {
+          "min": 361,
+          "max": 365,
+          "text": "Ginormous"
+        },
+        {
+          "min": 366,
+          "max": 370,
+          "text": "Glamorous"
+        },
+        {
+          "min": 371,
+          "max": 375,
+          "text": "Gleaming"
+        },
+        {
+          "min": 376,
+          "max": 380,
+          "text": "Glimpse"
+        },
+        {
+          "min": 381,
+          "max": 385,
+          "text": "Glistening"
+        },
+        {
+          "min": 386,
+          "max": 390,
+          "text": "Glittering"
+        },
+        {
+          "min": 391,
+          "max": 395,
+          "text": "Globular"
+        },
+        {
+          "min": 396,
+          "max": 400,
+          "text": "Gloomy"
+        },
+        {
+          "min": 401,
+          "max": 405,
+          "text": "Glossy"
+        },
+        {
+          "min": 406,
+          "max": 410,
+          "text": "Glowing"
+        },
+        {
+          "min": 411,
+          "max": 415,
+          "text": "Gold"
+        },
+        {
+          "min": 416,
+          "max": 420,
+          "text": "Graceful"
+        },
+        {
+          "min": 421,
+          "max": 425,
+          "text": "Gray"
+        },
+        {
+          "min": 426,
+          "max": 430,
+          "text": "Green"
+        },
+        {
+          "min": 431,
+          "max": 435,
+          "text": "Grotesque"
+        },
+        {
+          "min": 436,
+          "max": 440,
+          "text": "Hazy"
+        },
+        {
+          "min": 441,
+          "max": 445,
+          "text": "Hideous"
+        },
+        {
+          "min": 446,
+          "max": 450,
+          "text": "Hollow"
+        },
+        {
+          "min": 451,
+          "max": 455,
+          "text": "Homely"
+        },
+        {
+          "min": 456,
+          "max": 460,
+          "text": "Huge"
+        },
+        {
+          "min": 461,
+          "max": 465,
+          "text": "Illuminated"
+        },
+        {
+          "min": 466,
+          "max": 470,
+          "text": "Immense"
+        },
+        {
+          "min": 471,
+          "max": 475,
+          "text": "Indistinct"
+        },
+        {
+          "min": 476,
+          "max": 480,
+          "text": "Ivory"
+        },
+        {
+          "min": 481,
+          "max": 485,
+          "text": "Knotty"
+        },
+        {
+          "min": 486,
+          "max": 490,
+          "text": "Lacy"
+        },
+        {
+          "min": 491,
+          "max": 495,
+          "text": "Lanky"
+        },
+        {
+          "min": 496,
+          "max": 500,
+          "text": "Large"
+        },
+        {
+          "min": 501,
+          "max": 505,
+          "text": "Lavender"
+        },
+        {
+          "min": 506,
+          "max": 510,
+          "text": "Lean"
+        },
+        {
+          "min": 511,
+          "max": 515,
+          "text": "Lithe"
+        },
+        {
+          "min": 516,
+          "max": 520,
+          "text": "Little"
+        },
+        {
+          "min": 521,
+          "max": 525,
+          "text": "Lofty"
+        },
+        {
+          "min": 526,
+          "max": 530,
+          "text": "Long"
+        },
+        {
+          "min": 531,
+          "max": 535,
+          "text": "Low"
+        },
+        {
+          "min": 536,
+          "max": 540,
+          "text": "Luminous"
+        },
+        {
+          "min": 541,
+          "max": 545,
+          "text": "Malnourished"
+        },
+        {
+          "min": 546,
+          "max": 550,
+          "text": "Maroon"
+        },
+        {
+          "min": 551,
+          "max": 555,
+          "text": "Massive"
+        },
+        {
+          "min": 556,
+          "max": 560,
+          "text": "Miniature"
+        },
+        {
+          "min": 561,
+          "max": 565,
+          "text": "Misshapen"
+        },
+        {
+          "min": 566,
+          "max": 570,
+          "text": "Misty"
+        },
+        {
+          "min": 571,
+          "max": 575,
+          "text": "Motionless"
+        },
+        {
+          "min": 576,
+          "max": 580,
+          "text": "Mottled"
+        },
+        {
+          "min": 581,
+          "max": 585,
+          "text": "Mountainous"
+        },
+        {
+          "min": 586,
+          "max": 590,
+          "text": "Muddy"
+        },
+        {
+          "min": 591,
+          "max": 595,
+          "text": "Murky"
+        },
+        {
+          "min": 596,
+          "max": 600,
+          "text": "Narrow"
+        },
+        {
+          "min": 601,
+          "max": 605,
+          "text": "New"
+        },
+        {
+          "min": 606,
+          "max": 610,
+          "text": "Obtuse"
+        },
+        {
+          "min": 611,
+          "max": 615,
+          "text": "Olive"
+        },
+        {
+          "min": 616,
+          "max": 620,
+          "text": "Opal"
+        },
+        {
+          "min": 621,
+          "max": 625,
+          "text": "Opaque"
+        },
+        {
+          "min": 626,
+          "max": 630,
+          "text": "Orange"
+        },
+        {
+          "min": 631,
+          "max": 635,
+          "text": "Oval"
+        },
+        {
+          "min": 636,
+          "max": 640,
+          "text": "Pale"
+        },
+        {
+          "min": 641,
+          "max": 645,
+          "text": "Peered"
+        },
+        {
+          "min": 646,
+          "max": 650,
+          "text": "Petite"
+        },
+        {
+          "min": 651,
+          "max": 655,
+          "text": "Pink"
+        },
+        {
+          "min": 656,
+          "max": 660,
+          "text": "Portly"
+        },
+        {
+          "min": 661,
+          "max": 665,
+          "text": "Pristine"
+        },
+        {
+          "min": 666,
+          "max": 670,
+          "text": "Prodigious"
+        },
+        {
+          "min": 671,
+          "max": 675,
+          "text": "Purple"
+        },
+        {
+          "min": 676,
+          "max": 680,
+          "text": "Quaint"
+        },
+        {
+          "min": 681,
+          "max": 685,
+          "text": "Radiant"
+        },
+        {
+          "min": 686,
+          "max": 690,
+          "text": "Rectangular"
+        },
+        {
+          "min": 691,
+          "max": 695,
+          "text": "Red"
+        },
+        {
+          "min": 696,
+          "max": 700,
+          "text": "Reddish"
+        },
+        {
+          "min": 701,
+          "max": 705,
+          "text": "Rippling"
+        },
+        {
+          "min": 706,
+          "max": 710,
+          "text": "Rotund"
+        },
+        {
+          "min": 711,
+          "max": 715,
+          "text": "Round"
+        },
+        {
+          "min": 716,
+          "max": 720,
+          "text": "Ruby"
+        },
+        {
+          "min": 721,
+          "max": 725,
+          "text": "Ruddy"
+        },
+        {
+          "min": 726,
+          "max": 730,
+          "text": "Rusty"
+        },
+        {
+          "min": 731,
+          "max": 735,
+          "text": "Sabotaged"
+        },
+        {
+          "min": 736,
+          "max": 740,
+          "text": "Scary"
+        },
+        {
+          "min": 741,
+          "max": 745,
+          "text": "Shadowy"
+        },
+        {
+          "min": 746,
+          "max": 750,
+          "text": "Shallow"
+        },
+        {
+          "min": 751,
+          "max": 755,
+          "text": "Shapeless"
+        },
+        {
+          "min": 756,
+          "max": 760,
+          "text": "Sheer"
+        },
+        {
+          "min": 761,
+          "max": 765,
+          "text": "Shimmering"
+        },
+        {
+          "min": 766,
+          "max": 770,
+          "text": "Shiny"
+        },
+        {
+          "min": 771,
+          "max": 775,
+          "text": "Short"
+        },
+        {
+          "min": 776,
+          "max": 780,
+          "text": "Silver"
+        },
+        {
+          "min": 781,
+          "max": 785,
+          "text": "Skinny"
+        },
+        {
+          "min": 786,
+          "max": 790,
+          "text": "Small"
+        },
+        {
+          "min": 791,
+          "max": 795,
+          "text": "Smudged"
+        },
+        {
+          "min": 796,
+          "max": 800,
+          "text": "Soaring"
+        },
+        {
+          "min": 801,
+          "max": 805,
+          "text": "Sparkling"
+        },
+        {
+          "min": 806,
+          "max": 810,
+          "text": "Sparkly"
+        },
+        {
+          "min": 811,
+          "max": 815,
+          "text": "Spherical"
+        },
+        {
+          "min": 816,
+          "max": 820,
+          "text": "Spotless"
+        },
+        {
+          "min": 821,
+          "max": 825,
+          "text": "Spotted"
+        },
+        {
+          "min": 826,
+          "max": 830,
+          "text": "Square"
+        },
+        {
+          "min": 831,
+          "max": 835,
+          "text": "Steep"
+        },
+        {
+          "min": 836,
+          "max": 840,
+          "text": "Stormy"
+        },
+        {
+          "min": 841,
+          "max": 845,
+          "text": "Straight"
+        },
+        {
+          "min": 846,
+          "max": 850,
+          "text": "Strange"
+        },
+        {
+          "min": 851,
+          "max": 855,
+          "text": "Striped"
+        },
+        {
+          "min": 856,
+          "max": 860,
+          "text": "Sunny"
+        },
+        {
+          "min": 861,
+          "max": 865,
+          "text": "Swooping"
+        },
+        {
+          "min": 866,
+          "max": 870,
+          "text": "Tall"
+        },
+        {
+          "min": 871,
+          "max": 875,
+          "text": "Tapering"
+        },
+        {
+          "min": 876,
+          "max": 880,
+          "text": "Tarnished"
+        },
+        {
+          "min": 881,
+          "max": 885,
+          "text": "Teeny-tiny"
+        },
+        {
+          "min": 886,
+          "max": 890,
+          "text": "Tiny"
+        },
+        {
+          "min": 891,
+          "max": 895,
+          "text": "Towering"
+        },
+        {
+          "min": 896,
+          "max": 900,
+          "text": "Translucent"
+        },
+        {
+          "min": 901,
+          "max": 905,
+          "text": "Transparent"
+        },
+        {
+          "min": 906,
+          "max": 910,
+          "text": "Triangular"
+        },
+        {
+          "min": 911,
+          "max": 915,
+          "text": "Turquoise"
+        },
+        {
+          "min": 916,
+          "max": 920,
+          "text": "Twinkling"
+        },
+        {
+          "min": 921,
+          "max": 925,
+          "text": "Twisted"
+        },
+        {
+          "min": 926,
+          "max": 930,
+          "text": "Ugly"
+        },
+        {
+          "min": 931,
+          "max": 935,
+          "text": "Unsightly"
+        },
+        {
+          "min": 936,
+          "max": 940,
+          "text": "Unusual"
+        },
+        {
+          "min": 941,
+          "max": 945,
+          "text": "Vibrant"
+        },
+        {
+          "min": 946,
+          "max": 950,
+          "text": "Violet"
+        },
+        {
+          "min": 951,
+          "max": 955,
+          "text": "Vivid"
+        },
+        {
+          "min": 956,
+          "max": 960,
+          "text": "Weird"
+        },
+        {
+          "min": 961,
+          "max": 965,
+          "text": "White"
+        },
+        {
+          "min": 966,
+          "max": 970,
+          "text": "Wide"
+        },
+        {
+          "min": 971,
+          "max": 975,
+          "text": "Wiry"
+        },
+        {
+          "min": 976,
+          "max": 980,
+          "text": "Wispy"
+        },
+        {
+          "min": 981,
+          "max": 985,
+          "text": "Wizened"
+        },
+        {
+          "min": 986,
+          "max": 990,
+          "text": "Wrinkled"
+        },
+        {
+          "min": 991,
+          "max": 995,
+          "text": "Wrinkly"
+        },
+        {
+          "min": 996,
+          "max": 1000,
+          "text": "Yellow"
+        }
+      ]
+    },
+    "smells": {
+      "name": "Smells",
+      "dice": 1000,
+      "rows": [
+        {
+          "min": 1,
+          "max": 11,
+          "text": "Acid"
+        },
+        {
+          "min": 12,
+          "max": 23,
+          "text": "Acrid"
+        },
+        {
+          "min": 24,
+          "max": 35,
+          "text": "Airy"
+        },
+        {
+          "min": 36,
+          "max": 47,
+          "text": "Ammonia"
+        },
+        {
+          "min": 48,
+          "max": 59,
+          "text": "Antiseptic"
+        },
+        {
+          "min": 60,
+          "max": 71,
+          "text": "Aromatic"
+        },
+        {
+          "min": 72,
+          "max": 83,
+          "text": "Bouquet"
+        },
+        {
+          "min": 84,
+          "max": 95,
+          "text": "Briny"
+        },
+        {
+          "min": 96,
+          "max": 107,
+          "text": "Burnt"
+        },
+        {
+          "min": 108,
+          "max": 119,
+          "text": "Citrusy"
+        },
+        {
+          "min": 120,
+          "max": 131,
+          "text": "Clean"
+        },
+        {
+          "min": 132,
+          "max": 142,
+          "text": "Coppery"
+        },
+        {
+          "min": 143,
+          "max": 153,
+          "text": "Crisp"
+        },
+        {
+          "min": 154,
+          "max": 164,
+          "text": "Damp"
+        },
+        {
+          "min": 165,
+          "max": 175,
+          "text": "Decayed"
+        },
+        {
+          "min": 176,
+          "max": 186,
+          "text": "Decomposed"
+        },
+        {
+          "min": 187,
+          "max": 197,
+          "text": "Delicious"
+        },
+        {
+          "min": 198,
+          "max": 208,
+          "text": "Doggy"
+        },
+        {
+          "min": 209,
+          "max": 219,
+          "text": "Earthy"
+        },
+        {
+          "min": 220,
+          "max": 230,
+          "text": "Fetid"
+        },
+        {
+          "min": 231,
+          "max": 241,
+          "text": "Fishy"
+        },
+        {
+          "min": 242,
+          "max": 252,
+          "text": "Floral"
+        },
+        {
+          "min": 253,
+          "max": 263,
+          "text": "Flowery"
+        },
+        {
+          "min": 264,
+          "max": 274,
+          "text": "Foul"
+        },
+        {
+          "min": 275,
+          "max": 285,
+          "text": "Fragrant"
+        },
+        {
+          "min": 286,
+          "max": 296,
+          "text": "Fresh"
+        },
+        {
+          "min": 297,
+          "max": 307,
+          "text": "Fruity"
+        },
+        {
+          "min": 308,
+          "max": 318,
+          "text": "Funky"
+        },
+        {
+          "min": 319,
+          "max": 329,
+          "text": "Fusty"
+        },
+        {
+          "min": 330,
+          "max": 340,
+          "text": "Gamy"
+        },
+        {
+          "min": 341,
+          "max": 351,
+          "text": "Garlicky"
+        },
+        {
+          "min": 352,
+          "max": 362,
+          "text": "Gaseous"
+        },
+        {
+          "min": 363,
+          "max": 373,
+          "text": "Heady"
+        },
+        {
+          "min": 374,
+          "max": 384,
+          "text": "Horrid"
+        },
+        {
+          "min": 385,
+          "max": 395,
+          "text": "Intoxicating"
+        },
+        {
+          "min": 396,
+          "max": 406,
+          "text": "Leathery"
+        },
+        {
+          "min": 407,
+          "max": 417,
+          "text": "Lemony"
+        },
+        {
+          "min": 418,
+          "max": 428,
+          "text": "Malodorous"
+        },
+        {
+          "min": 429,
+          "max": 439,
+          "text": "Medicinal"
+        },
+        {
+          "min": 440,
+          "max": 450,
+          "text": "Mildewed"
+        },
+        {
+          "min": 451,
+          "max": 461,
+          "text": "Minty"
+        },
+        {
+          "min": 462,
+          "max": 472,
+          "text": "Moist"
+        },
+        {
+          "min": 473,
+          "max": 483,
+          "text": "Mouldy"
+        },
+        {
+          "min": 484,
+          "max": 494,
+          "text": "Mouth-"
+        },
+        {
+          "min": 495,
+          "max": 505,
+          "text": "Mown Grass"
+        },
+        {
+          "min": 506,
+          "max": 516,
+          "text": "Musky"
+        },
+        {
+          "min": 517,
+          "max": 527,
+          "text": "Musty"
+        },
+        {
+          "min": 528,
+          "max": 538,
+          "text": "Nasty"
+        },
+        {
+          "min": 539,
+          "max": 549,
+          "text": "Nauseating"
+        },
+        {
+          "min": 550,
+          "max": 560,
+          "text": "Odiferous"
+        },
+        {
+          "min": 561,
+          "max": 571,
+          "text": "Odourless"
+        },
+        {
+          "min": 572,
+          "max": 582,
+          "text": "Old"
+        },
+        {
+          "min": 583,
+          "max": 593,
+          "text": "Overpowering"
+        },
+        {
+          "min": 594,
+          "max": 604,
+          "text": "Peachy"
+        },
+        {
+          "min": 605,
+          "max": 615,
+          "text": "Peppery"
+        },
+        {
+          "min": 616,
+          "max": 626,
+          "text": "Perfumed"
+        },
+        {
+          "min": 627,
+          "max": 637,
+          "text": "Piney"
+        },
+        {
+          "min": 638,
+          "max": 648,
+          "text": "Polluted"
+        },
+        {
+          "min": 649,
+          "max": 659,
+          "text": "Pungent"
+        },
+        {
+          "min": 660,
+          "max": 670,
+          "text": "Putrid"
+        },
+        {
+          "min": 671,
+          "max": 681,
+          "text": "Rancid"
+        },
+        {
+          "min": 682,
+          "max": 692,
+          "text": "Rank"
+        },
+        {
+          "min": 693,
+          "max": 703,
+          "text": "Redolent"
+        },
+        {
+          "min": 704,
+          "max": 714,
+          "text": "Reeking"
+        },
+        {
+          "min": 715,
+          "max": 725,
+          "text": "Rich"
+        },
+        {
+          "min": 726,
+          "max": 736,
+          "text": "Ripe"
+        },
+        {
+          "min": 737,
+          "max": 747,
+          "text": "Rotten"
+        },
+        {
+          "min": 748,
+          "max": 758,
+          "text": "Salty"
+        },
+        {
+          "min": 759,
+          "max": 769,
+          "text": "Savoury"
+        },
+        {
+          "min": 770,
+          "max": 780,
+          "text": "Scented"
+        },
+        {
+          "min": 781,
+          "max": 791,
+          "text": "Sharp"
+        },
+        {
+          "min": 792,
+          "max": 802,
+          "text": "Sickly"
+        },
+        {
+          "min": 803,
+          "max": 813,
+          "text": "Skunky"
+        },
+        {
+          "min": 814,
+          "max": 824,
+          "text": "Smoky"
+        },
+        {
+          "min": 825,
+          "max": 835,
+          "text": "Sour"
+        },
+        {
+          "min": 836,
+          "max": 846,
+          "text": "Spicy"
+        },
+        {
+          "min": 847,
+          "max": 857,
+          "text": "Spoiled"
+        },
+        {
+          "min": 858,
+          "max": 868,
+          "text": "Stagnant"
+        },
+        {
+          "min": 869,
+          "max": 879,
+          "text": "Stale"
+        },
+        {
+          "min": 880,
+          "max": 890,
+          "text": "Stench"
+        },
+        {
+          "min": 891,
+          "max": 901,
+          "text": "Stinky"
+        },
+        {
+          "min": 902,
+          "max": 912,
+          "text": "Stuffy"
+        },
+        {
+          "min": 913,
+          "max": 923,
+          "text": "Sulphurous"
+        },
+        {
+          "min": 924,
+          "max": 934,
+          "text": "Sweaty"
+        },
+        {
+          "min": 935,
+          "max": 945,
+          "text": "Sweet"
+        },
+        {
+          "min": 946,
+          "max": 956,
+          "text": "Tangy"
+        },
+        {
+          "min": 957,
+          "max": 967,
+          "text": "Tantalizing"
+        },
+        {
+          "min": 968,
+          "max": 978,
+          "text": "Tart"
+        },
+        {
+          "min": 979,
+          "max": 989,
+          "text": "Tempting"
+        },
+        {
+          "min": 990,
+          "max": 1000,
+          "text": "Woody"
+        }
+      ]
+    },
+    "sounds": {
+      "name": "Sounds",
+      "dice": 1000,
+      "rows": [
+        {
+          "min": 1,
+          "max": 7,
+          "text": "Babble"
+        },
+        {
+          "min": 8,
+          "max": 15,
+          "text": "Bang"
+        },
+        {
+          "min": 16,
+          "max": 23,
+          "text": "Barking"
+        },
+        {
+          "min": 24,
+          "max": 31,
+          "text": "Bawling"
+        },
+        {
+          "min": 32,
+          "max": 39,
+          "text": "Bellow"
+        },
+        {
+          "min": 40,
+          "max": 47,
+          "text": "Birdsong"
+        },
+        {
+          "min": 48,
+          "max": 55,
+          "text": "Blaring"
+        },
+        {
+          "min": 56,
+          "max": 63,
+          "text": "Bleat"
+        },
+        {
+          "min": 64,
+          "max": 71,
+          "text": "Booming"
+        },
+        {
+          "min": 72,
+          "max": 79,
+          "text": "Bray"
+        },
+        {
+          "min": 80,
+          "max": 87,
+          "text": "Buzzing"
+        },
+        {
+          "min": 88,
+          "max": 95,
+          "text": "Cackling"
+        },
+        {
+          "min": 96,
+          "max": 103,
+          "text": "Chattering"
+        },
+        {
+          "min": 104,
+          "max": 111,
+          "text": "Cheer"
+        },
+        {
+          "min": 112,
+          "max": 119,
+          "text": "Chiming"
+        },
+        {
+          "min": 120,
+          "max": 127,
+          "text": "Chirping"
+        },
+        {
+          "min": 128,
+          "max": 135,
+          "text": "Chuckle"
+        },
+        {
+          "min": 136,
+          "max": 143,
+          "text": "Clamour"
+        },
+        {
+          "min": 144,
+          "max": 151,
+          "text": "Clanging"
+        },
+        {
+          "min": 152,
+          "max": 159,
+          "text": "Clapping"
+        },
+        {
+          "min": 160,
+          "max": 167,
+          "text": "Clicking"
+        },
+        {
+          "min": 168,
+          "max": 175,
+          "text": "Cooing"
+        },
+        {
+          "min": 176,
+          "max": 183,
+          "text": "Coughing"
+        },
+        {
+          "min": 184,
+          "max": 191,
+          "text": "Crackling"
+        },
+        {
+          "min": 192,
+          "max": 199,
+          "text": "Crashing"
+        },
+        {
+          "min": 200,
+          "max": 207,
+          "text": "Creak"
+        },
+        {
+          "min": 208,
+          "max": 215,
+          "text": "Croaking"
+        },
+        {
+          "min": 216,
+          "max": 223,
+          "text": "Crow"
+        },
+        {
+          "min": 224,
+          "max": 231,
+          "text": "Crunching"
+        },
+        {
+          "min": 232,
+          "max": 239,
+          "text": "Cry"
+        },
+        {
+          "min": 240,
+          "max": 247,
+          "text": "Crying"
+        },
+        {
+          "min": 248,
+          "max": 255,
+          "text": "Deafening"
+        },
+        {
+          "min": 256,
+          "max": 263,
+          "text": "Distorted"
+        },
+        {
+          "min": 264,
+          "max": 271,
+          "text": "Dripping"
+        },
+        {
+          "min": 272,
+          "max": 279,
+          "text": "Ear-piercing"
+        },
+        {
+          "min": 280,
+          "max": 287,
+          "text": "Ear-splitting"
+        },
+        {
+          "min": 288,
+          "max": 295,
+          "text": "Echoing"
+        },
+        {
+          "min": 296,
+          "max": 303,
+          "text": "Exploding"
+        },
+        {
+          "min": 304,
+          "max": 311,
+          "text": "Faint"
+        },
+        {
+          "min": 312,
+          "max": 319,
+          "text": "Fizzing"
+        },
+        {
+          "min": 320,
+          "max": 327,
+          "text": "Gagging"
+        },
+        {
+          "min": 328,
+          "max": 335,
+          "text": "Gasping"
+        },
+        {
+          "min": 336,
+          "max": 343,
+          "text": "Giggling"
+        },
+        {
+          "min": 344,
+          "max": 351,
+          "text": "Grating"
+        },
+        {
+          "min": 352,
+          "max": 359,
+          "text": "Growl"
+        },
+        {
+          "min": 360,
+          "max": 367,
+          "text": "Grumble"
+        },
+        {
+          "min": 368,
+          "max": 375,
+          "text": "Grunting"
+        },
+        {
+          "min": 376,
+          "max": 383,
+          "text": "Guffaw"
+        },
+        {
+          "min": 384,
+          "max": 391,
+          "text": "Gurgling"
+        },
+        {
+          "min": 392,
+          "max": 399,
+          "text": "Hissing"
+        },
+        {
+          "min": 400,
+          "max": 407,
+          "text": "Honking"
+        },
+        {
+          "min": 408,
+          "max": 415,
+          "text": "Howl"
+        },
+        {
+          "min": 416,
+          "max": 423,
+          "text": "Hubbub"
+        },
+        {
+          "min": 424,
+          "max": 431,
+          "text": "Hum"
+        },
+        {
+          "min": 432,
+          "max": 439,
+          "text": "Humming"
+        },
+        {
+          "min": 440,
+          "max": 447,
+          "text": "Hush"
+        },
+        {
+          "min": 448,
+          "max": 455,
+          "text": "Jabber"
+        },
+        {
+          "min": 456,
+          "max": 463,
+          "text": "Jangling"
+        },
+        {
+          "min": 464,
+          "max": 471,
+          "text": "Laughing"
+        },
+        {
+          "min": 472,
+          "max": 479,
+          "text": "Loud"
+        },
+        {
+          "min": 480,
+          "max": 487,
+          "text": "Melodic"
+        },
+        {
+          "min": 488,
+          "max": 495,
+          "text": "Moaning"
+        },
+        {
+          "min": 496,
+          "max": 503,
+          "text": "Monotonous"
+        },
+        {
+          "min": 504,
+          "max": 511,
+          "text": "Mooing"
+        },
+        {
+          "min": 512,
+          "max": 519,
+          "text": "Muffled"
+        },
+        {
+          "min": 520,
+          "max": 527,
+          "text": "Mumbling"
+        },
+        {
+          "min": 528,
+          "max": 535,
+          "text": "Murmur"
+        },
+        {
+          "min": 536,
+          "max": 543,
+          "text": "Muttering"
+        },
+        {
+          "min": 544,
+          "max": 551,
+          "text": "Noisy"
+        },
+        {
+          "min": 552,
+          "max": 559,
+          "text": "Peeping"
+        },
+        {
+          "min": 560,
+          "max": 567,
+          "text": "Piercing"
+        },
+        {
+          "min": 568,
+          "max": 575,
+          "text": "Pinging"
+        },
+        {
+          "min": 576,
+          "max": 583,
+          "text": "Plopping"
+        },
+        {
+          "min": 584,
+          "max": 591,
+          "text": "Pop"
+        },
+        {
+          "min": 592,
+          "max": 599,
+          "text": "Purring"
+        },
+        {
+          "min": 600,
+          "max": 607,
+          "text": "Quacking"
+        },
+        {
+          "min": 608,
+          "max": 615,
+          "text": "Quiet"
+        },
+        {
+          "min": 616,
+          "max": 623,
+          "text": "Rant"
+        },
+        {
+          "min": 624,
+          "max": 631,
+          "text": "Rapping"
+        },
+        {
+          "min": 632,
+          "max": 639,
+          "text": "Rasping"
+        },
+        {
+          "min": 640,
+          "max": 647,
+          "text": "Raucous"
+        },
+        {
+          "min": 648,
+          "max": 655,
+          "text": "Rave"
+        },
+        {
+          "min": 656,
+          "max": 663,
+          "text": "Ringing"
+        },
+        {
+          "min": 664,
+          "max": 671,
+          "text": "Roaring"
+        },
+        {
+          "min": 672,
+          "max": 679,
+          "text": "Rumbling"
+        },
+        {
+          "min": 680,
+          "max": 687,
+          "text": "Rustling"
+        },
+        {
+          "min": 688,
+          "max": 695,
+          "text": "Scratching"
+        },
+        {
+          "min": 696,
+          "max": 703,
+          "text": "Screaming"
+        },
+        {
+          "min": 704,
+          "max": 711,
+          "text": "Screeching"
+        },
+        {
+          "min": 712,
+          "max": 719,
+          "text": "Serene"
+        },
+        {
+          "min": 720,
+          "max": 727,
+          "text": "Shouting"
+        },
+        {
+          "min": 728,
+          "max": 735,
+          "text": "Shrieking"
+        },
+        {
+          "min": 736,
+          "max": 743,
+          "text": "Shrill"
+        },
+        {
+          "min": 744,
+          "max": 751,
+          "text": "Sigh"
+        },
+        {
+          "min": 752,
+          "max": 759,
+          "text": "Silent"
+        },
+        {
+          "min": 760,
+          "max": 767,
+          "text": "Singing"
+        },
+        {
+          "min": 768,
+          "max": 775,
+          "text": "Sizzling"
+        },
+        {
+          "min": 776,
+          "max": 783,
+          "text": "Slamming"
+        },
+        {
+          "min": 784,
+          "max": 791,
+          "text": "Snap"
+        },
+        {
+          "min": 792,
+          "max": 799,
+          "text": "Snoring"
+        },
+        {
+          "min": 800,
+          "max": 807,
+          "text": "Snort"
+        },
+        {
+          "min": 808,
+          "max": 815,
+          "text": "Splashing"
+        },
+        {
+          "min": 816,
+          "max": 823,
+          "text": "Squawking"
+        },
+        {
+          "min": 824,
+          "max": 831,
+          "text": "Squeaky"
+        },
+        {
+          "min": 832,
+          "max": 839,
+          "text": "Stammer"
+        },
+        {
+          "min": 840,
+          "max": 847,
+          "text": "Stomp"
+        },
+        {
+          "min": 848,
+          "max": 855,
+          "text": "Storm"
+        },
+        {
+          "min": 856,
+          "max": 863,
+          "text": "Stuttering"
+        },
+        {
+          "min": 864,
+          "max": 871,
+          "text": "Tearing"
+        },
+        {
+          "min": 872,
+          "max": 879,
+          "text": "Thudding"
+        },
+        {
+          "min": 880,
+          "max": 887,
+          "text": "Thumping"
+        },
+        {
+          "min": 888,
+          "max": 895,
+          "text": "Thunder"
+        },
+        {
+          "min": 896,
+          "max": 902,
+          "text": "Thundering"
+        },
+        {
+          "min": 903,
+          "max": 909,
+          "text": "Ticking"
+        },
+        {
+          "min": 910,
+          "max": 916,
+          "text": "Tinkling"
+        },
+        {
+          "min": 917,
+          "max": 923,
+          "text": "Twittering"
+        },
+        {
+          "min": 924,
+          "max": 930,
+          "text": "Wail"
+        },
+        {
+          "min": 931,
+          "max": 937,
+          "text": "Warbling"
+        },
+        {
+          "min": 938,
+          "max": 944,
+          "text": "Wheezing"
+        },
+        {
+          "min": 945,
+          "max": 951,
+          "text": "Whimpering"
+        },
+        {
+          "min": 952,
+          "max": 958,
+          "text": "Whining"
+        },
+        {
+          "min": 959,
+          "max": 965,
+          "text": "Whir"
+        },
+        {
+          "min": 966,
+          "max": 972,
+          "text": "Whispering"
+        },
+        {
+          "min": 973,
+          "max": 979,
+          "text": "Whistle"
+        },
+        {
+          "min": 980,
+          "max": 986,
+          "text": "Whooping"
+        },
+        {
+          "min": 987,
+          "max": 993,
+          "text": "Yell"
+        },
+        {
+          "min": 994,
+          "max": 1000,
+          "text": "Yelp"
+        }
+      ]
+    },
+    "tastes": {
+      "name": "Tastes",
+      "dice": 1000,
+      "rows": [
+        {
+          "min": 1,
+          "max": 7,
+          "text": "Acidic"
+        },
+        {
+          "min": 8,
+          "max": 15,
+          "text": "After Taste"
+        },
+        {
+          "min": 16,
+          "max": 23,
+          "text": "Aged"
+        },
+        {
+          "min": 24,
+          "max": 31,
+          "text": "Appealing"
+        },
+        {
+          "min": 32,
+          "max": 39,
+          "text": "Appetizing"
+        },
+        {
+          "min": 40,
+          "max": 47,
+          "text": "Artificial"
+        },
+        {
+          "min": 48,
+          "max": 55,
+          "text": "Astringent"
+        },
+        {
+          "min": 56,
+          "max": 62,
+          "text": "Biting"
+        },
+        {
+          "min": 63,
+          "max": 69,
+          "text": "Bitter"
+        },
+        {
+          "min": 70,
+          "max": 76,
+          "text": "Bittersweet"
+        },
+        {
+          "min": 77,
+          "max": 83,
+          "text": "Bland"
+        },
+        {
+          "min": 84,
+          "max": 90,
+          "text": "Briny"
+        },
+        {
+          "min": 91,
+          "max": 97,
+          "text": "Burnt"
+        },
+        {
+          "min": 98,
+          "max": 104,
+          "text": "Bursting"
+        },
+        {
+          "min": 105,
+          "max": 111,
+          "text": "Buttery"
+        },
+        {
+          "min": 112,
+          "max": 118,
+          "text": "Chalky"
+        },
+        {
+          "min": 119,
+          "max": 125,
+          "text": "Charred"
+        },
+        {
+          "min": 126,
+          "max": 132,
+          "text": "Cheesy"
+        },
+        {
+          "min": 133,
+          "max": 139,
+          "text": "Chocolatey"
+        },
+        {
+          "min": 140,
+          "max": 146,
+          "text": "Condensed"
+        },
+        {
+          "min": 147,
+          "max": 153,
+          "text": "Contaminated"
+        },
+        {
+          "min": 154,
+          "max": 160,
+          "text": "Creamy"
+        },
+        {
+          "min": 161,
+          "max": 167,
+          "text": "Crispy"
+        },
+        {
+          "min": 168,
+          "max": 174,
+          "text": "Crumbly"
+        },
+        {
+          "min": 175,
+          "max": 181,
+          "text": "Delectable"
+        },
+        {
+          "min": 182,
+          "max": 188,
+          "text": "Delicious"
+        },
+        {
+          "min": 189,
+          "max": 195,
+          "text": "Delightful"
+        },
+        {
+          "min": 196,
+          "max": 202,
+          "text": "Disgusting"
+        },
+        {
+          "min": 203,
+          "max": 209,
+          "text": "Divine"
+        },
+        {
+          "min": 210,
+          "max": 216,
+          "text": "Doughy"
+        },
+        {
+          "min": 217,
+          "max": 223,
+          "text": "Dry"
+        },
+        {
+          "min": 224,
+          "max": 230,
+          "text": "Dull"
+        },
+        {
+          "min": 231,
+          "max": 237,
+          "text": "Earthy"
+        },
+        {
+          "min": 238,
+          "max": 244,
+          "text": "Enticing"
+        },
+        {
+          "min": 245,
+          "max": 251,
+          "text": "Exotic"
+        },
+        {
+          "min": 252,
+          "max": 258,
+          "text": "Fatty"
+        },
+        {
+          "min": 259,
+          "max": 265,
+          "text": "Fermented"
+        },
+        {
+          "min": 266,
+          "max": 272,
+          "text": "Fibrous"
+        },
+        {
+          "min": 273,
+          "max": 279,
+          "text": "Fiery"
+        },
+        {
+          "min": 280,
+          "max": 286,
+          "text": "Fishy"
+        },
+        {
+          "min": 287,
+          "max": 293,
+          "text": "Flat"
+        },
+        {
+          "min": 294,
+          "max": 300,
+          "text": "Flavourful"
+        },
+        {
+          "min": 301,
+          "max": 307,
+          "text": "Flavourless"
+        },
+        {
+          "min": 308,
+          "max": 314,
+          "text": "Floury"
+        },
+        {
+          "min": 315,
+          "max": 321,
+          "text": "Fresh"
+        },
+        {
+          "min": 322,
+          "max": 328,
+          "text": "Frosty"
+        },
+        {
+          "min": 329,
+          "max": 335,
+          "text": "Frozen"
+        },
+        {
+          "min": 336,
+          "max": 342,
+          "text": "Fruity"
+        },
+        {
+          "min": 343,
+          "max": 349,
+          "text": "Full Bodied"
+        },
+        {
+          "min": 350,
+          "max": 356,
+          "text": "Gamey"
+        },
+        {
+          "min": 357,
+          "max": 363,
+          "text": "Garlicky"
+        },
+        {
+          "min": 364,
+          "max": 370,
+          "text": "Gingery"
+        },
+        {
+          "min": 371,
+          "max": 377,
+          "text": "Gooey"
+        },
+        {
+          "min": 378,
+          "max": 384,
+          "text": "Greasy"
+        },
+        {
+          "min": 385,
+          "max": 391,
+          "text": "Gritty"
+        },
+        {
+          "min": 392,
+          "max": 398,
+          "text": "Gross"
+        },
+        {
+          "min": 399,
+          "max": 405,
+          "text": "Harsh"
+        },
+        {
+          "min": 406,
+          "max": 412,
+          "text": "Hearty"
+        },
+        {
+          "min": 413,
+          "max": 419,
+          "text": "Heavy"
+        },
+        {
+          "min": 420,
+          "max": 426,
+          "text": "Honeyed"
+        },
+        {
+          "min": 427,
+          "max": 433,
+          "text": "Infused"
+        },
+        {
+          "min": 434,
+          "max": 440,
+          "text": "Intense"
+        },
+        {
+          "min": 441,
+          "max": 447,
+          "text": "Inviting"
+        },
+        {
+          "min": 448,
+          "max": 454,
+          "text": "Juicy"
+        },
+        {
+          "min": 455,
+          "max": 461,
+          "text": "Lean"
+        },
+        {
+          "min": 462,
+          "max": 468,
+          "text": "Lemony"
+        },
+        {
+          "min": 469,
+          "max": 475,
+          "text": "Light"
+        },
+        {
+          "min": 476,
+          "max": 482,
+          "text": "Lumpy"
+        },
+        {
+          "min": 483,
+          "max": 489,
+          "text": "Luscious"
+        },
+        {
+          "min": 490,
+          "max": 496,
+          "text": "Medicinal"
+        },
+        {
+          "min": 497,
+          "max": 503,
+          "text": "Mellow"
+        },
+        {
+          "min": 504,
+          "max": 510,
+          "text": "Melted"
+        },
+        {
+          "min": 511,
+          "max": 517,
+          "text": "Mild"
+        },
+        {
+          "min": 518,
+          "max": 524,
+          "text": "Milky"
+        },
+        {
+          "min": 525,
+          "max": 531,
+          "text": "Minty"
+        },
+        {
+          "min": 532,
+          "max": 538,
+          "text": "Moist"
+        },
+        {
+          "min": 539,
+          "max": 545,
+          "text": "Mouldy"
+        },
+        {
+          "min": 546,
+          "max": 552,
+          "text": "Mushy"
+        },
+        {
+          "min": 553,
+          "max": 559,
+          "text": "Nauseating"
+        },
+        {
+          "min": 560,
+          "max": 566,
+          "text": "Nutritious"
+        },
+        {
+          "min": 567,
+          "max": 573,
+          "text": "Nutty"
+        },
+        {
+          "min": 574,
+          "max": 580,
+          "text": "Oily"
+        },
+        {
+          "min": 581,
+          "max": 587,
+          "text": "Organic"
+        },
+        {
+          "min": 588,
+          "max": 594,
+          "text": "Overcooked"
+        },
+        {
+          "min": 595,
+          "max": 601,
+          "text": "Overripe"
+        },
+        {
+          "min": 602,
+          "max": 608,
+          "text": "Palatable"
+        },
+        {
+          "min": 609,
+          "max": 615,
+          "text": "Peppery"
+        },
+        {
+          "min": 616,
+          "max": 622,
+          "text": "Pickled"
+        },
+        {
+          "min": 623,
+          "max": 629,
+          "text": "Piquant"
+        },
+        {
+          "min": 630,
+          "max": 636,
+          "text": "Plain"
+        },
+        {
+          "min": 637,
+          "max": 643,
+          "text": "Potent"
+        },
+        {
+          "min": 644,
+          "max": 650,
+          "text": "Pulpy"
+        },
+        {
+          "min": 651,
+          "max": 657,
+          "text": "Rancid"
+        },
+        {
+          "min": 658,
+          "max": 664,
+          "text": "Rank"
+        },
+        {
+          "min": 665,
+          "max": 671,
+          "text": "Raw"
+        },
+        {
+          "min": 672,
+          "max": 678,
+          "text": "Refreshing"
+        },
+        {
+          "min": 679,
+          "max": 685,
+          "text": "Rich"
+        },
+        {
+          "min": 686,
+          "max": 692,
+          "text": "Ripe"
+        },
+        {
+          "min": 693,
+          "max": 699,
+          "text": "Roasted"
+        },
+        {
+          "min": 700,
+          "max": 706,
+          "text": "Robust"
+        },
+        {
+          "min": 707,
+          "max": 713,
+          "text": "Rotten"
+        },
+        {
+          "min": 714,
+          "max": 720,
+          "text": "Ruined"
+        },
+        {
+          "min": 721,
+          "max": 727,
+          "text": "Salted"
+        },
+        {
+          "min": 728,
+          "max": 734,
+          "text": "Salty"
+        },
+        {
+          "min": 735,
+          "max": 741,
+          "text": "Savoury"
+        },
+        {
+          "min": 742,
+          "max": 748,
+          "text": "Scorched"
+        },
+        {
+          "min": 749,
+          "max": 755,
+          "text": "Scrumptious"
+        },
+        {
+          "min": 756,
+          "max": 762,
+          "text": "Seasoned"
+        },
+        {
+          "min": 763,
+          "max": 769,
+          "text": "Sharp"
+        },
+        {
+          "min": 770,
+          "max": 776,
+          "text": "Slimy"
+        },
+        {
+          "min": 777,
+          "max": 783,
+          "text": "Smokey"
+        },
+        {
+          "min": 784,
+          "max": 790,
+          "text": "Smooth"
+        },
+        {
+          "min": 791,
+          "max": 797,
+          "text": "Sour"
+        },
+        {
+          "min": 798,
+          "max": 804,
+          "text": "Spicy"
+        },
+        {
+          "min": 805,
+          "max": 811,
+          "text": "Spoiled"
+        },
+        {
+          "min": 812,
+          "max": 818,
+          "text": "Stale"
+        },
+        {
+          "min": 819,
+          "max": 825,
+          "text": "Strong"
+        },
+        {
+          "min": 826,
+          "max": 832,
+          "text": "Succulent"
+        },
+        {
+          "min": 833,
+          "max": 839,
+          "text": "Sugary"
+        },
+        {
+          "min": 840,
+          "max": 846,
+          "text": "Sweet"
+        },
+        {
+          "min": 847,
+          "max": 853,
+          "text": "Sweet and"
+        },
+        {
+          "min": 854,
+          "max": 860,
+          "text": "Syrupy"
+        },
+        {
+          "min": 861,
+          "max": 867,
+          "text": "Tainted"
+        },
+        {
+          "min": 868,
+          "max": 874,
+          "text": "Tangy"
+        },
+        {
+          "min": 875,
+          "max": 881,
+          "text": "Tantalizing"
+        },
+        {
+          "min": 882,
+          "max": 888,
+          "text": "Tart"
+        },
+        {
+          "min": 889,
+          "max": 895,
+          "text": "Tasteless"
+        },
+        {
+          "min": 896,
+          "max": 902,
+          "text": "Tasty"
+        },
+        {
+          "min": 903,
+          "max": 909,
+          "text": "Tender"
+        },
+        {
+          "min": 910,
+          "max": 916,
+          "text": "Thick"
+        },
+        {
+          "min": 917,
+          "max": 923,
+          "text": "Tough"
+        },
+        {
+          "min": 924,
+          "max": 930,
+          "text": "Treacly"
+        },
+        {
+          "min": 931,
+          "max": 937,
+          "text": "Undercooked"
+        },
+        {
+          "min": 938,
+          "max": 944,
+          "text": "Unripe"
+        },
+        {
+          "min": 945,
+          "max": 951,
+          "text": "Unsalted"
+        },
+        {
+          "min": 952,
+          "max": 958,
+          "text": "Unseasoned"
+        },
+        {
+          "min": 959,
+          "max": 965,
+          "text": "Unsweetened"
+        },
+        {
+          "min": 966,
+          "max": 972,
+          "text": "Vinegary"
+        },
+        {
+          "min": 973,
+          "max": 979,
+          "text": "Warm"
+        },
+        {
+          "min": 980,
+          "max": 986,
+          "text": "Watered"
+        },
+        {
+          "min": 987,
+          "max": 993,
+          "text": "Yummy"
+        },
+        {
+          "min": 994,
+          "max": 1000,
+          "text": "Zesty"
+        }
+      ]
+    },
+    "touches": {
+      "name": "Touches",
+      "dice": 1000,
+      "rows": [
+        {
+          "min": 1,
+          "max": 8,
+          "text": "Abrasive"
+        },
+        {
+          "min": 9,
+          "max": 17,
+          "text": "Balmy"
+        },
+        {
+          "min": 18,
+          "max": 26,
+          "text": "Biting"
+        },
+        {
+          "min": 27,
+          "max": 35,
+          "text": "Boiling"
+        },
+        {
+          "min": 36,
+          "max": 44,
+          "text": "Breezy"
+        },
+        {
+          "min": 45,
+          "max": 53,
+          "text": "Bristly"
+        },
+        {
+          "min": 54,
+          "max": 62,
+          "text": "Bumpy"
+        },
+        {
+          "min": 63,
+          "max": 71,
+          "text": "Burning"
+        },
+        {
+          "min": 72,
+          "max": 80,
+          "text": "Bushy"
+        },
+        {
+          "min": 81,
+          "max": 89,
+          "text": "Chilly"
+        },
+        {
+          "min": 90,
+          "max": 98,
+          "text": "Clammy"
+        },
+        {
+          "min": 99,
+          "max": 107,
+          "text": "Coarse"
+        },
+        {
+          "min": 108,
+          "max": 116,
+          "text": "Cold"
+        },
+        {
+          "min": 117,
+          "max": 125,
+          "text": "Cool"
+        },
+        {
+          "min": 126,
+          "max": 134,
+          "text": "Cottony"
+        },
+        {
+          "min": 135,
+          "max": 143,
+          "text": "Crawly"
+        },
+        {
+          "min": 144,
+          "max": 152,
+          "text": "Creepy"
+        },
+        {
+          "min": 153,
+          "max": 160,
+          "text": "Cuddly"
+        },
+        {
+          "min": 161,
+          "max": 168,
+          "text": "Cushioned"
+        },
+        {
+          "min": 169,
+          "max": 176,
+          "text": "Damp"
+        },
+        {
+          "min": 177,
+          "max": 184,
+          "text": "Dank"
+        },
+        {
+          "min": 185,
+          "max": 192,
+          "text": "Dirty"
+        },
+        {
+          "min": 193,
+          "max": 200,
+          "text": "Downy"
+        },
+        {
+          "min": 201,
+          "max": 208,
+          "text": "Drenched"
+        },
+        {
+          "min": 209,
+          "max": 216,
+          "text": "Dry"
+        },
+        {
+          "min": 217,
+          "max": 224,
+          "text": "Elastic"
+        },
+        {
+          "min": 225,
+          "max": 232,
+          "text": "Feathery"
+        },
+        {
+          "min": 233,
+          "max": 240,
+          "text": "Feverish"
+        },
+        {
+          "min": 241,
+          "max": 248,
+          "text": "Fine"
+        },
+        {
+          "min": 249,
+          "max": 256,
+          "text": "Firm"
+        },
+        {
+          "min": 257,
+          "max": 264,
+          "text": "Flaky"
+        },
+        {
+          "min": 265,
+          "max": 272,
+          "text": "Fleshy"
+        },
+        {
+          "min": 273,
+          "max": 280,
+          "text": "Fluffy"
+        },
+        {
+          "min": 281,
+          "max": 288,
+          "text": "Foamy"
+        },
+        {
+          "min": 289,
+          "max": 296,
+          "text": "Fragile"
+        },
+        {
+          "min": 297,
+          "max": 304,
+          "text": "Fragile"
+        },
+        {
+          "min": 305,
+          "max": 312,
+          "text": "Freezing"
+        },
+        {
+          "min": 313,
+          "max": 320,
+          "text": "Furry"
+        },
+        {
+          "min": 321,
+          "max": 328,
+          "text": "Fuzzy"
+        },
+        {
+          "min": 329,
+          "max": 336,
+          "text": "Glassy"
+        },
+        {
+          "min": 337,
+          "max": 344,
+          "text": "Gluey"
+        },
+        {
+          "min": 345,
+          "max": 352,
+          "text": "Gooey"
+        },
+        {
+          "min": 353,
+          "max": 360,
+          "text": "Grainy"
+        },
+        {
+          "min": 361,
+          "max": 368,
+          "text": "Greasy"
+        },
+        {
+          "min": 369,
+          "max": 376,
+          "text": "Gritty"
+        },
+        {
+          "min": 377,
+          "max": 384,
+          "text": "Hairy"
+        },
+        {
+          "min": 385,
+          "max": 392,
+          "text": "Hard"
+        },
+        {
+          "min": 393,
+          "max": 400,
+          "text": "Heavy"
+        },
+        {
+          "min": 401,
+          "max": 408,
+          "text": "Hot"
+        },
+        {
+          "min": 409,
+          "max": 416,
+          "text": "Humid"
+        },
+        {
+          "min": 417,
+          "max": 424,
+          "text": "Icy"
+        },
+        {
+          "min": 425,
+          "max": 432,
+          "text": "Itchy"
+        },
+        {
+          "min": 433,
+          "max": 440,
+          "text": "Knobbed"
+        },
+        {
+          "min": 441,
+          "max": 448,
+          "text": "Leathery"
+        },
+        {
+          "min": 449,
+          "max": 456,
+          "text": "Light"
+        },
+        {
+          "min": 457,
+          "max": 464,
+          "text": "Lightweight"
+        },
+        {
+          "min": 465,
+          "max": 472,
+          "text": "Limp"
+        },
+        {
+          "min": 473,
+          "max": 480,
+          "text": "Lukewarm"
+        },
+        {
+          "min": 481,
+          "max": 488,
+          "text": "Lumpy"
+        },
+        {
+          "min": 489,
+          "max": 496,
+          "text": "Matted"
+        },
+        {
+          "min": 497,
+          "max": 504,
+          "text": "Metallic"
+        },
+        {
+          "min": 505,
+          "max": 512,
+          "text": "Moist"
+        },
+        {
+          "min": 513,
+          "max": 520,
+          "text": "Mushy"
+        },
+        {
+          "min": 521,
+          "max": 528,
+          "text": "Numbing"
+        },
+        {
+          "min": 529,
+          "max": 536,
+          "text": "Oily"
+        },
+        {
+          "min": 537,
+          "max": 544,
+          "text": "Plastic"
+        },
+        {
+          "min": 545,
+          "max": 552,
+          "text": "Pointed"
+        },
+        {
+          "min": 553,
+          "max": 560,
+          "text": "Powdery"
+        },
+        {
+          "min": 561,
+          "max": 568,
+          "text": "Pulpy"
+        },
+        {
+          "min": 569,
+          "max": 576,
+          "text": "Rocky"
+        },
+        {
+          "min": 577,
+          "max": 584,
+          "text": "Rough"
+        },
+        {
+          "min": 585,
+          "max": 592,
+          "text": "Rubbery"
+        },
+        {
+          "min": 593,
+          "max": 600,
+          "text": "Sandy"
+        },
+        {
+          "min": 601,
+          "max": 608,
+          "text": "Scalding"
+        },
+        {
+          "min": 609,
+          "max": 616,
+          "text": "Scaly"
+        },
+        {
+          "min": 617,
+          "max": 624,
+          "text": "Scorching"
+        },
+        {
+          "min": 625,
+          "max": 632,
+          "text": "Scratchy"
+        },
+        {
+          "min": 633,
+          "max": 640,
+          "text": "Scummy"
+        },
+        {
+          "min": 641,
+          "max": 648,
+          "text": "Serrated"
+        },
+        {
+          "min": 649,
+          "max": 656,
+          "text": "Shaggy"
+        },
+        {
+          "min": 657,
+          "max": 664,
+          "text": "Sharp"
+        },
+        {
+          "min": 665,
+          "max": 672,
+          "text": "Shivering"
+        },
+        {
+          "min": 673,
+          "max": 680,
+          "text": "Silky"
+        },
+        {
+          "min": 681,
+          "max": 688,
+          "text": "Slimy"
+        },
+        {
+          "min": 689,
+          "max": 696,
+          "text": "Slippery"
+        },
+        {
+          "min": 697,
+          "max": 704,
+          "text": "Sloppy"
+        },
+        {
+          "min": 705,
+          "max": 712,
+          "text": "Smooth"
+        },
+        {
+          "min": 713,
+          "max": 720,
+          "text": "Smothering"
+        },
+        {
+          "min": 721,
+          "max": 728,
+          "text": "Soapy"
+        },
+        {
+          "min": 729,
+          "max": 736,
+          "text": "Soft"
+        },
+        {
+          "min": 737,
+          "max": 744,
+          "text": "Soggy"
+        },
+        {
+          "min": 745,
+          "max": 752,
+          "text": "Sopping"
+        },
+        {
+          "min": 753,
+          "max": 760,
+          "text": "Soupy"
+        },
+        {
+          "min": 761,
+          "max": 768,
+          "text": "Splintery"
+        },
+        {
+          "min": 769,
+          "max": 776,
+          "text": "Spongy"
+        },
+        {
+          "min": 777,
+          "max": 784,
+          "text": "Springy"
+        },
+        {
+          "min": 785,
+          "max": 792,
+          "text": "Squashy"
+        },
+        {
+          "min": 793,
+          "max": 800,
+          "text": "Squeal"
+        },
+        {
+          "min": 801,
+          "max": 808,
+          "text": "Squishy"
+        },
+        {
+          "min": 809,
+          "max": 816,
+          "text": "Steamy"
+        },
+        {
+          "min": 817,
+          "max": 824,
+          "text": "Steely"
+        },
+        {
+          "min": 825,
+          "max": 832,
+          "text": "Sticky"
+        },
+        {
+          "min": 833,
+          "max": 840,
+          "text": "Stifling"
+        },
+        {
+          "min": 841,
+          "max": 848,
+          "text": "Stinging"
+        },
+        {
+          "min": 849,
+          "max": 856,
+          "text": "Stoney"
+        },
+        {
+          "min": 857,
+          "max": 864,
+          "text": "Stony"
+        },
+        {
+          "min": 865,
+          "max": 872,
+          "text": "Stubby"
+        },
+        {
+          "min": 873,
+          "max": 880,
+          "text": "Tangled"
+        },
+        {
+          "min": 881,
+          "max": 888,
+          "text": "Tapered"
+        },
+        {
+          "min": 889,
+          "max": 896,
+          "text": "Tender"
+        },
+        {
+          "min": 897,
+          "max": 904,
+          "text": "Tepid"
+        },
+        {
+          "min": 905,
+          "max": 912,
+          "text": "Thick"
+        },
+        {
+          "min": 913,
+          "max": 920,
+          "text": "Thin"
+        },
+        {
+          "min": 921,
+          "max": 928,
+          "text": "Thorny"
+        },
+        {
+          "min": 929,
+          "max": 936,
+          "text": "Tickling"
+        },
+        {
+          "min": 937,
+          "max": 944,
+          "text": "Tingling"
+        },
+        {
+          "min": 945,
+          "max": 952,
+          "text": "Tough"
+        },
+        {
+          "min": 953,
+          "max": 960,
+          "text": "Unsanitary"
+        },
+        {
+          "min": 961,
+          "max": 968,
+          "text": "Velvety"
+        },
+        {
+          "min": 969,
+          "max": 976,
+          "text": "Warm"
+        },
+        {
+          "min": 977,
+          "max": 984,
+          "text": "Waxy"
+        },
+        {
+          "min": 985,
+          "max": 992,
+          "text": "Wet"
+        },
+        {
+          "min": 993,
+          "max": 1000,
+          "text": "Woolly"
+        }
+      ]
+    }
+  }
+}
