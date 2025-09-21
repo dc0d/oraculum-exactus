@@ -1,7 +1,7 @@
 import { describe, expect, test } from '@jest/globals';
-import { roll, seededRNG, getRandomInt } from './roller';
+import { roll, seededRNG, getRandomInt, type RollResult } from './roller';
 
-describe.each<{ expr: string; expected: any }>`
+describe.each<{ expr: string; expected: RollResult[] }>`
   expr               | expected
   ${'d6'}            | ${[{ sides: 6, rolls: [1] }]}
   ${'d10'}           | ${[{ sides: 10, rolls: [2] }]}

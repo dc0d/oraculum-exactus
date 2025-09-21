@@ -1,58 +1,37 @@
 import { App, Plugin, type PluginManifest } from 'obsidian';
 import { OracleEditorSuggest } from './src/plugins';
-import {
-  type Settings,
-  getDefaultSettings,
-  type SettingsStorage,
-} from './src/settings';
+import { type Settings, reader } from './src/settings';
 import { SettingTab } from './src/tabs';
+import { readerWriter } from './src/settings/store';
 
-export default class OraculumExactusPlugin
-  extends Plugin
-  implements SettingsStorage
-{
-  settings: Settings = getDefaultSettings();
-
+export default class OraculumExactusPlugin extends Plugin {
   constructor(app: App, manifest: PluginManifest) {
     super(app, manifest);
   }
 
   async onload() {
-    await this.#loadSettings();
+    await this.loadSettings();
 
-    this.addSettingTab(new SettingTab(this.app, this));
-    this.registerEditorSuggest(new OracleEditorSuggest(this.app, this));
+    this.addSettingTab(
+      new SettingTab(this.app, this, (settings: Settings) =>
+        this.writeSettings(settings),
+      ),
+    );
+    this.registerEditorSuggest(new OracleEditorSuggest(this.app));
   }
 
   async onunload() {}
 
-  // SettingsStorage implementation
-
-  async readSettings(): Promise<Settings> {
-    await this.#loadSettings();
-    return this.settings;
-  }
-
-  readSettingsSync(): Settings {
-    return { ...this.settings };
-  }
-
-  async writeSettings(settings: Settings): Promise<void> {
-    this.settings = settings;
-    await this.#saveSettings();
-  }
-
-  // Support functions
-
-  async #loadSettings() {
-    this.settings = Object.assign(
+  private async loadSettings(): Promise<void> {
+    readerWriter.settings = Object.assign(
       {},
-      getDefaultSettings(),
+      reader.settings,
       await this.loadData(),
     );
   }
 
-  async #saveSettings() {
-    await this.saveData(this.settings);
+  private async writeSettings(settings: Settings): Promise<void> {
+    readerWriter.settings = settings;
+    await this.saveData(readerWriter.settings);
   }
 }

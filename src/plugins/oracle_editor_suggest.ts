@@ -13,26 +13,32 @@ import {
   suggestionHandler,
   selectionHandler,
 } from '../handlers';
-import { type SettingsReaderSync } from '../settings';
+import { type Settings, reader } from '../settings';
 
 export class OracleEditorSuggest extends EditorSuggest<any> {
-  #settingsReader: SettingsReaderSync;
-  #_prefix: string = '';
+  #settings: Settings = reader.settings;
+  #prefixValue: string = '';
 
-  constructor(app: App, settingsReader: SettingsReaderSync) {
+  constructor(app: App) {
     super(app);
-    this.#settingsReader = settingsReader;
+    reader.onChange((settings: Settings) => {
+      this.#settings = settings;
+    });
   }
 
   get #prefix() {
-    return this.#_prefix;
+    return this.#prefixValue;
   }
 
   set #prefix(v: string) {
     if (!v) {
       v = '';
     }
-    this.#_prefix = v;
+    this.#prefixValue = v;
+  }
+
+  get #trigger() {
+    return this.#settings.trigger;
   }
 
   // 1
@@ -44,7 +50,7 @@ export class OracleEditorSuggest extends EditorSuggest<any> {
     const result = triggerHandler(
       editor.getLine(cursor.line),
       cursor.ch,
-      this.#settingsReader.readSettingsSync().trigger,
+      this.#trigger,
     );
     if (!result) {
       return null;
@@ -64,7 +70,7 @@ export class OracleEditorSuggest extends EditorSuggest<any> {
   getSuggestions(context: EditorSuggestContext): any[] | Promise<any[]> {
     const { suggestions, prefix, replacement } = suggestionHandler(
       this.#prefix,
-      this.#settingsReader.readSettingsSync().trigger,
+      this.#trigger,
     );
 
     if (replacement) {
