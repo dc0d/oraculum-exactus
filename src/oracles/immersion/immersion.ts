@@ -20,8 +20,8 @@ export class ImmersionOracles {
   constructor(input: { rand?: RandFn; data?: typeof immersion }) {
     input = { ...defaultInput(), ...input };
 
-    this.#rand = input.rand as any;
-    this.#data = input.data as any;
+    this.#rand = input.rand!;
+    this.#data = input.data!;
   }
 
   feelings(): { chosen_immersion: string } {

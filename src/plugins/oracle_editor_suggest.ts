@@ -77,8 +77,7 @@ export class OracleEditorSuggest extends EditorSuggest<any> {
 
   // 3
   renderSuggestion(trigger: any, el: HTMLElement): void {
-    const outer = el.createDiv();
-    outer.createDiv().innerHTML = `${trigger}`;
+    el.createEl('div', { text: trigger });
   }
 
   // 4

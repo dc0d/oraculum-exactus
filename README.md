@@ -4,6 +4,10 @@ Oraculum Exactus is an Obsidian plugin that provides a suite of tools for genera
 
 ![Image title](oraculum-exactus-obsidian-plugin.gif)
 
+### settings
+
+The default activator trigger is `.\` (dot backslash). You can change it in the settings.
+
 ## license - the code here
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -28,9 +28,9 @@ export class ClassicOracles {
   }) {
     input = { ...defaultInput(), ...input };
 
-    this.#rand = input.rand as any;
-    this.#data = input.data as any;
-    this.#nameOracle = input.nameOracle as any;
+    this.#rand = input.rand!;
+    this.#data = input.data!;
+    this.#nameOracle = input.nameOracle!;
   }
 
   action_and_theme(): { action: string; theme: string } {

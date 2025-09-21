@@ -20,8 +20,8 @@ export class NameOracle {
   constructor(input: { rand?: RandFn; data?: typeof classic }) {
     input = { ...defaultInput(), ...input };
 
-    this.#rand = input.rand as any;
-    this.#data = input.data as any;
+    this.#rand = input.rand!;
+    this.#data = input.data!;
   }
 
   elf(): { name: string } {
