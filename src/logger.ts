@@ -1,12 +1,12 @@
 const DEBUG = true;
 
 export const logger = {
-  log: (msg: string, ...args: any[]) => {
+  log: (msg: string, ...args: unknown[]) => {
     if (DEBUG) {
-      console.log(`>>> ${msg}`, ...args);
+      console.debug(`>>> ${msg}`, ...args);
     }
   },
-  error: (msg: string, ...args: any[]) => {
+  error: (msg: string, ...args: unknown[]) => {
     if (DEBUG) {
       console.error(`>>> ${msg}`, ...args);
     }

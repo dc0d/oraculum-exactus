@@ -1,4 +1,5 @@
 import { ClassicOracles } from '../oracles/datasworn';
+import { NameOracle } from '../oracles/datasworn/name_oracle';
 import { ImmersionOracles } from '../oracles/immersion';
 import { selectionFormatter } from './selection_formatter';
 import { detectDiceExpression, rollOnDetected } from '../dice';
@@ -9,15 +10,17 @@ const defaultDependencies = {
   formatter: selectionFormatter,
 };
 
+type Dependencies = typeof defaultDependencies;
+
 export const selectionHandler = (
   input: { selected: string; prefix: string },
-  dependencies = defaultDependencies,
-) => {
+  dependencies: Dependencies = defaultDependencies,
+): string | undefined => {
   const { ironsworn, immersion, formatter } = {
     ...defaultDependencies,
     ...dependencies,
   };
-  const { selected, prefix } = input;
+  const { selected } = input;
   const command = selected;
 
   if (command == 'ironsworn.roll') {
@@ -32,12 +35,19 @@ export const selectionHandler = (
     return formatter(ironsworn.character());
   }
   if (command.startsWith('ironsworn.name.')) {
-    const cmd = command.replace('ironsworn.name.', '');
-    return formatter((ironsworn.name() as any)[cmd as any]());
+    const cmd = command.replace('ironsworn.name.', '') as keyof NameOracle;
+    const nameOracle = ironsworn.name();
+    const method = nameOracle[cmd];
+    if (typeof method === 'function') {
+      return formatter(method.call(nameOracle));
+    }
   }
   if (command.startsWith('immersion.')) {
-    const cmd = command.replace('immersion.', '');
-    return formatter((immersion as any)[cmd as any]());
+    const cmd = command.replace('immersion.', '') as keyof ImmersionOracles;
+    const method = immersion[cmd];
+    if (typeof method === 'function') {
+      return formatter(method.call(immersion));
+    }
   }
 
   const detected = detectDiceExpression(command);
@@ -45,5 +55,5 @@ export const selectionHandler = (
     return formatter({ rolled: rollOnDetected(detected) });
   }
 
-  // console.log(`Unknown command`, JSON.stringify({ command, prefix }));
+  return undefined;
 };

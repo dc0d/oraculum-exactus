@@ -2,7 +2,7 @@
 export function randInt(max: number): number;
 // returns a random integer from min to max-1 if two arguments are provided
 export function randInt(min: number, max: number): number;
-export function randInt(min: number, max?: number | undefined) {
+export function randInt(min: number, max?: number) {
   if (typeof max === 'undefined') {
     max = min;
     min = 0;

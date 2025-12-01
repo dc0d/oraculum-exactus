@@ -6,7 +6,7 @@ export type DetectedDice = {
 
 export const detectDiceExpression = (text: string): DetectedDice[] => {
   const trimmed = text.trim();
-  const parts = text.split(',').map((part) => part.trim());
+  const parts = trimmed.split(',').map((part) => part.trim());
   const diceRegex = /^(\d*)d(\d+)([HhLl])?$/i;
   const detected: DetectedDice[] = [];
   for (const part of parts) {

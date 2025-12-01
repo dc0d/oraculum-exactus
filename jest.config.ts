@@ -4,7 +4,7 @@ const presetConfig = createDefaultPreset({
   //...options
 });
 
-console.log('>>> presetConfig', presetConfig);
+console.debug('>>> presetConfig', presetConfig);
 
 const jestConfig: JestConfigWithTsJest = {
   ...presetConfig,

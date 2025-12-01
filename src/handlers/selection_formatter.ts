@@ -18,23 +18,47 @@ const getGlyph = (input: { sides: number; rolled: number }) => {
   return `${rolled}_ON_D${sides}`;
 };
 
-export const selectionFormatter = (obj: any): string => {
-  const { action, theme } = obj;
+export type SelectionObject =
+  | {
+      action: string;
+      theme: string;
+    }
+  | {
+      descriptor: string;
+      goal: string;
+      role: string;
+    }
+  | {
+      name: string;
+    }
+  | {
+      chosen_immersion: string;
+    }
+  | {
+      rolled: RollResult[];
+    };
+
+export const selectionFormatter = (obj: SelectionObject): string => {
+  const { action, theme } = obj as { action?: string; theme?: string };
   if (action && theme) {
     return `${action} ${theme}`;
   }
 
-  const { descriptor, goal, role } = obj;
+  const { descriptor, goal, role } = obj as {
+    descriptor?: string;
+    goal?: string;
+    role?: string;
+  };
   if (descriptor && goal && role) {
     return `${descriptor} ${role} - goal: ${goal}`;
   }
 
-  const { name } = obj;
+  const { name } = obj as { name?: string };
   if (name) {
     return name;
   }
 
-  const { chosen_immersion } = obj;
+  const { chosen_immersion } = obj as { chosen_immersion?: string };
   if (chosen_immersion) {
     return chosen_immersion;
   }

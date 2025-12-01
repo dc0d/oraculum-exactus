@@ -3,12 +3,11 @@ import { type RandFn } from '../../types.ts';
 import { ClassicOracles } from './index.ts';
 import { NameOracle } from './name_oracle.ts';
 
-describe.each<{ rand: RandFn; expected: { action: string; theme: string } }>`
-  rand        | expected
-  ${() => 0}  | ${{ action: 'Scheme', theme: 'Risk' }}
-  ${() => 9}  | ${{ action: 'Control', theme: 'Shelter' }}
-  ${() => 99} | ${{ action: 'Summon', theme: 'Supply' }}
-`('ClassicOracles.action_and_theme', ({ rand, expected }) => {
+describe.each<{ rand: RandFn; expected: { action: string; theme: string } }>([
+  { rand: () => 0, expected: { action: 'Scheme', theme: 'Risk' } },
+  { rand: () => 9, expected: { action: 'Control', theme: 'Shelter' } },
+  { rand: () => 99, expected: { action: 'Summon', theme: 'Supply' } },
+])('ClassicOracles.action_and_theme', ({ rand, expected }) => {
   test(`ClassicOracles(${rand}).action_and_theme() => ${expected}`, () => {
     const oracles = new ClassicOracles({ rand });
 
@@ -19,12 +18,32 @@ describe.each<{ rand: RandFn; expected: { action: string; theme: string } }>`
 describe.each<{
   rand: RandFn;
   expected: { descriptor: string; goal: string; role: string };
-}>`
-  rand        | expected
-  ${() => 0}  | ${{ descriptor: 'Stoic', goal: 'Obtain an object', role: 'Criminal' }}
-  ${() => 9}  | ${{ descriptor: 'Brave', goal: 'Undermine a relationship', role: 'Performer' }}
-  ${() => 99} | ${{ descriptor: 'Ironsworn', goal: 'Roll twice', role: 'Unusual role' }}
-`('ClassicOracles.character', ({ rand, expected }) => {
+}>([
+  {
+    rand: () => 0,
+    expected: {
+      descriptor: 'Stoic',
+      goal: 'Obtain an object',
+      role: 'Criminal',
+    },
+  },
+  {
+    rand: () => 9,
+    expected: {
+      descriptor: 'Brave',
+      goal: 'Undermine a relationship',
+      role: 'Performer',
+    },
+  },
+  {
+    rand: () => 99,
+    expected: {
+      descriptor: 'Ironsworn',
+      goal: 'Roll twice',
+      role: 'Unusual role',
+    },
+  },
+])('ClassicOracles.character', ({ rand, expected }) => {
   test(`ClassicOracles(${rand}).character() => ${expected}`, () => {
     const oracles = new ClassicOracles({ rand });
 
@@ -32,12 +51,11 @@ describe.each<{
   });
 });
 
-describe.each<{ rand: RandFn; expected: { name: string } }>`
-  rand        | expected
-  ${() => 0}  | ${{ name: 'Arsula' }}
-  ${() => 9}  | ${{ name: 'Ninsunu' }}
-  ${() => 99} | ${{ name: 'Faraza' }}
-`('ClassicOracles.name("elf")', ({ rand, expected }) => {
+describe.each<{ rand: RandFn; expected: { name: string } }>([
+  { rand: () => 0, expected: { name: 'Arsula' } },
+  { rand: () => 9, expected: { name: 'Ninsunu' } },
+  { rand: () => 99, expected: { name: 'Faraza' } },
+])('ClassicOracles.name("elf")', ({ rand, expected }) => {
   test(`ClassicOracles(${rand}).name('elf') => ${expected}`, () => {
     const oracles = new ClassicOracles({
       rand,
