@@ -20,7 +20,7 @@ export default class OraculumExactusPlugin extends Plugin {
     this.registerEditorSuggest(new OracleEditorSuggest(this.app));
   }
 
-  async onunload() {}
+  async onunload(): Promise<void> {}
 
   private async loadSettings(): Promise<void> {
     readerWriter.settings = Object.assign(

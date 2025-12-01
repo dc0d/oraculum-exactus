@@ -16,12 +16,11 @@ describe.each<{ rolled: number; expected: string }>`
   });
 });
 
-describe.each<{ rand: RandFn; expected: string }>`
-  rand        | expected
-  ${() => 0}  | ${'Scheme'}
-  ${() => 9}  | ${'Control'}
-  ${() => 99} | ${'Summon'}
-`('rollAndFind', ({ rand, expected }) => {
+describe.each<{ rand: RandFn; expected: string }>([
+  { rand: () => 0, expected: 'Scheme' },
+  { rand: () => 9, expected: 'Control' },
+  { rand: () => 99, expected: 'Summon' },
+])('rollAndFind', ({ rand, expected }) => {
   test(`rollAndFind(rand, _, [...actions]) => ${expected}`, () => {
     const nopDice = -1; // not used
     const rows = classic.oracles.action_and_theme.contents.action.rows;
@@ -30,7 +29,7 @@ describe.each<{ rand: RandFn; expected: string }>`
   });
 });
 
-describe.each<{ dice: string; expected: Array<number> }>`
+describe.each<{ dice: string; expected: number }>`
   dice       | expected
   ${'1d100'} | ${100}
   ${'d100'}  | ${100}

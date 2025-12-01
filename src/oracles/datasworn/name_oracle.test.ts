@@ -3,12 +3,11 @@ import { createRandFn } from '../../test_support';
 import { type RandFn } from '../../types.ts';
 import { NameOracle } from './name_oracle.ts';
 
-describe.each<{ rand: RandFn; expected: { name: string } }>`
-  rand        | expected
-  ${() => 0}  | ${{ name: 'Arsula' }}
-  ${() => 9}  | ${{ name: 'Ninsunu' }}
-  ${() => 99} | ${{ name: 'Faraza' }}
-`('NameOracle.elf', ({ rand, expected }) => {
+describe.each<{ rand: RandFn; expected: { name: string } }>([
+  { rand: () => 0, expected: { name: 'Arsula' } },
+  { rand: () => 9, expected: { name: 'Ninsunu' } },
+  { rand: () => 99, expected: { name: 'Faraza' } },
+])('NameOracle.elf', ({ rand, expected }) => {
   test(`NameOracle(${rand}).elf() => ${expected}`, () => {
     const oracles = new NameOracle({ rand });
 
@@ -16,17 +15,16 @@ describe.each<{ rand: RandFn; expected: { name: string } }>`
   });
 });
 
-describe.each<{ rand: RandFn; expected: { name: string } }>`
-  rand                     | expected
-  ${createRandFn([0, 0])}  | ${{ name: 'Solana' }}
-  ${createRandFn([1, 0])}  | ${{ name: 'Segura' }}
-  ${createRandFn([0, 10])} | ${{ name: 'Bastien' }}
-  ${createRandFn([1, 10])} | ${{ name: 'Owena' }}
-  ${createRandFn([0, 99])} | ${{ name: 'Tallus' }}
-  ${createRandFn([1, 99])} | ${{ name: 'Chandra' }}
-  ${createRandFn([0, 1])}  | ${{ name: 'Keelan' }}
-  ${createRandFn([1, 1])}  | ${{ name: 'Gethin' }}
-`('NameOracle.ironlander', ({ rand, expected }) => {
+describe.each<{ rand: RandFn; expected: { name: string } }>([
+  { rand: createRandFn([0, 0]), expected: { name: 'Solana' } },
+  { rand: createRandFn([1, 0]), expected: { name: 'Segura' } },
+  { rand: createRandFn([0, 10]), expected: { name: 'Bastien' } },
+  { rand: createRandFn([1, 10]), expected: { name: 'Owena' } },
+  { rand: createRandFn([0, 99]), expected: { name: 'Tallus' } },
+  { rand: createRandFn([1, 99]), expected: { name: 'Chandra' } },
+  { rand: createRandFn([0, 1]), expected: { name: 'Keelan' } },
+  { rand: createRandFn([1, 1]), expected: { name: 'Gethin' } },
+])('NameOracle.ironlander', ({ rand, expected }) => {
   test(`NameOracle(${rand}).ironlander() => ${expected}`, () => {
     const oracles = new NameOracle({ rand });
 
@@ -34,12 +32,11 @@ describe.each<{ rand: RandFn; expected: { name: string } }>`
   });
 });
 
-describe.each<{ rand: RandFn; expected: { name: string } }>`
-  rand        | expected
-  ${() => 0}  | ${{ name: 'Chony' }}
-  ${() => 9}  | ${{ name: 'Jochu' }}
-  ${() => 99} | ${{ name: 'Denua' }}
-`('NameOracle.giants', ({ rand, expected }) => {
+describe.each<{ rand: RandFn; expected: { name: string } }>([
+  { rand: () => 0, expected: { name: 'Chony' } },
+  { rand: () => 9, expected: { name: 'Jochu' } },
+  { rand: () => 99, expected: { name: 'Denua' } },
+])('NameOracle.giants', ({ rand, expected }) => {
   test(`NameOracle(${rand}).giants() => ${expected}`, () => {
     const oracles = new NameOracle({ rand });
 
@@ -47,12 +44,11 @@ describe.each<{ rand: RandFn; expected: { name: string } }>`
   });
 });
 
-describe.each<{ rand: RandFn; expected: { name: string } }>`
-  rand        | expected
-  ${() => 0}  | ${{ name: 'Vata' }}
-  ${() => 9}  | ${{ name: 'Jasna' }}
-  ${() => 99} | ${{ name: 'Vojan' }}
-`('NameOracle.varou', ({ rand, expected }) => {
+describe.each<{ rand: RandFn; expected: { name: string } }>([
+  { rand: () => 0, expected: { name: 'Vata' } },
+  { rand: () => 9, expected: { name: 'Jasna' } },
+  { rand: () => 99, expected: { name: 'Vojan' } },
+])('NameOracle.varou', ({ rand, expected }) => {
   test(`NameOracle(${rand}).varou() => ${expected}`, () => {
     const oracles = new NameOracle({ rand });
 
@@ -60,12 +56,11 @@ describe.each<{ rand: RandFn; expected: { name: string } }>`
   });
 });
 
-describe.each<{ rand: RandFn; expected: { name: string } }>`
-  rand        | expected
-  ${() => 0}  | ${{ name: 'Rattle' }}
-  ${() => 9}  | ${{ name: 'Wallow' }}
-  ${() => 99} | ${{ name: 'Herk' }}
-`('NameOracle.trolls', ({ rand, expected }) => {
+describe.each<{ rand: RandFn; expected: { name: string } }>([
+  { rand: () => 0, expected: { name: 'Rattle' } },
+  { rand: () => 9, expected: { name: 'Wallow' } },
+  { rand: () => 99, expected: { name: 'Herk' } },
+])('NameOracle.trolls', ({ rand, expected }) => {
   test(`NameOracle(${rand}).trolls() => ${expected}`, () => {
     const oracles = new NameOracle({ rand });
 

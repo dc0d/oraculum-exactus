@@ -15,7 +15,7 @@ import {
 } from '../handlers';
 import { type Settings, reader } from '../settings';
 
-export class OracleEditorSuggest extends EditorSuggest<any> {
+export class OracleEditorSuggest extends EditorSuggest<string> {
   #settings: Settings = reader.settings;
   #prefixValue: string = '';
 
@@ -67,7 +67,7 @@ export class OracleEditorSuggest extends EditorSuggest<any> {
   }
 
   // 2
-  getSuggestions(context: EditorSuggestContext): any[] | Promise<any[]> {
+  getSuggestions(context: EditorSuggestContext): string[] | Promise<string[]> {
     const { suggestions, prefix, replacement } = suggestionHandler(
       this.#prefix,
       this.#trigger,
@@ -82,12 +82,12 @@ export class OracleEditorSuggest extends EditorSuggest<any> {
   }
 
   // 3
-  renderSuggestion(trigger: any, el: HTMLElement): void {
-    el.createEl('div', { text: trigger });
+  renderSuggestion(suggestion: string, el: HTMLElement): void {
+    el.createEl('div', { text: suggestion });
   }
 
   // 4
-  selectSuggestion(suggestion: any, evt: MouseEvent | KeyboardEvent): void {
+  selectSuggestion(suggestion: string, evt: MouseEvent | KeyboardEvent): void {
     if (!this?.context?.editor) {
       return;
     }
