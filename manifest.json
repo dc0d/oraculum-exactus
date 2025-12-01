@@ -3,7 +3,7 @@
   "name": "Oraculum Exactus",
   "version": "0.5.7",
   "minAppVersion": "0.15.0",
-  "description": "Oracles & dice roller for TTRPG journaling",
+  "description": "Inline oracles & dice roller for TTRPG journaling.",
   "author": "Kaveh Shahbazian",
   "isDesktopOnly": true
 }
